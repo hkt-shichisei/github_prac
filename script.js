@@ -3,9 +3,9 @@ const decrement = document.getElementsByTagName("button")[1];
 const display = document.getElementsByTagName("h2")[0];
 
 increment.addEventListener("click", (e) => {
-    display.textContent = Number(display.textContent) + 10;
+    display.textContent = Number(display.textContent) + 5;
 });
 
 decrement.addEventListener("click", (e) => {
-    display.textContent = Number(display.textContent) - 10;
+    display.textContent = Number(display.textContent) - 5;
 });
